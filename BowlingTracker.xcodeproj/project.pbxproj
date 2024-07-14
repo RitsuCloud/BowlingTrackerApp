@@ -14,6 +14,8 @@
 		F9745E902C42EA9000EFC8E7 /* BowlingTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9745E8F2C42EA9000EFC8E7 /* BowlingTrackerTests.swift */; };
 		F9745E9A2C42EA9000EFC8E7 /* BowlingTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9745E992C42EA9000EFC8E7 /* BowlingTrackerUITests.swift */; };
 		F9745E9C2C42EA9000EFC8E7 /* BowlingTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9745E9B2C42EA9000EFC8E7 /* BowlingTrackerUITestsLaunchTests.swift */; };
+		F9745EAA2C43752300EFC8E7 /* 8964703.png in Resources */ = {isa = PBXBuildFile; fileRef = F9745EA92C43752200EFC8E7 /* 8964703.png */; };
+		F9745EAC2C43797700EFC8E7 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9745EAB2C43797700EFC8E7 /* SplashScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		F9745E952C42EA9000EFC8E7 /* BowlingTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BowlingTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9745E992C42EA9000EFC8E7 /* BowlingTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingTrackerUITests.swift; sourceTree = "<group>"; };
 		F9745E9B2C42EA9000EFC8E7 /* BowlingTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F9745EA92C43752200EFC8E7 /* 8964703.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 8964703.png; path = ../../../../../Desktop/8964703.png; sourceTree = "<group>"; };
+		F9745EAB2C43797700EFC8E7 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,10 @@
 		F9745E7D2C42EA8E00EFC8E7 /* BowlingTracker */ = {
 			isa = PBXGroup;
 			children = (
+				F9745EA82C43750C00EFC8E7 /* Icons */,
 				F9745E7E2C42EA8E00EFC8E7 /* BowlingTrackerApp.swift */,
 				F9745E802C42EA8E00EFC8E7 /* ContentView.swift */,
+				F9745EAB2C43797700EFC8E7 /* SplashScreenView.swift */,
 				F9745E822C42EA9000EFC8E7 /* Assets.xcassets */,
 				F9745E842C42EA9000EFC8E7 /* Preview Content */,
 			);
@@ -125,6 +131,14 @@
 				F9745E9B2C42EA9000EFC8E7 /* BowlingTrackerUITestsLaunchTests.swift */,
 			);
 			path = BowlingTrackerUITests;
+			sourceTree = "<group>";
+		};
+		F9745EA82C43750C00EFC8E7 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				F9745EA92C43752200EFC8E7 /* 8964703.png */,
+			);
+			path = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +247,7 @@
 			files = (
 				F9745E862C42EA9000EFC8E7 /* Preview Assets.xcassets in Resources */,
 				F9745E832C42EA9000EFC8E7 /* Assets.xcassets in Resources */,
+				F9745EAA2C43752300EFC8E7 /* 8964703.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +274,7 @@
 			files = (
 				F9745E812C42EA8E00EFC8E7 /* ContentView.swift in Sources */,
 				F9745E7F2C42EA8E00EFC8E7 /* BowlingTrackerApp.swift in Sources */,
+				F9745EAC2C43797700EFC8E7 /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
