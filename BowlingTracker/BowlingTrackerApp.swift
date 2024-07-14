@@ -12,7 +12,6 @@ struct BowlingTrackerApp: App {
     var body: some Scene {
         WindowGroup {
             SplashScreenView()
-            ContentView()
         }
     }
 }
