@@ -15,9 +15,6 @@ struct ContentView: View {
             Button {
                 newGameHandler();
             } label: {
-//                Image(.newGame)
-//                    .resizable()
-//                    .frame(width: 120, height: 120, alignment: .bottom)
                 Text("New Game")
                     .padding(20)
                     .border(Color.purple)
