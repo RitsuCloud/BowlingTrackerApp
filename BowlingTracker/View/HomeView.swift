@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomeView: View {
     var body: some View {
 
         VStack {
@@ -31,5 +31,5 @@ struct ContentView: View {
 
 #Preview {
     // We want the preview to be content view.
-    ContentView()
+    HomeView()
 }

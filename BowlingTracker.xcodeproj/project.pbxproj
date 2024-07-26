@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F9745E7F2C42EA8E00EFC8E7 /* BowlingTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9745E7E2C42EA8E00EFC8E7 /* BowlingTrackerApp.swift */; };
-		F9745E812C42EA8E00EFC8E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9745E802C42EA8E00EFC8E7 /* ContentView.swift */; };
+		F9745E812C42EA8E00EFC8E7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9745E802C42EA8E00EFC8E7 /* HomeView.swift */; };
 		F9745E832C42EA9000EFC8E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9745E822C42EA9000EFC8E7 /* Assets.xcassets */; };
 		F9745E862C42EA9000EFC8E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9745E852C42EA9000EFC8E7 /* Preview Assets.xcassets */; };
 		F9745E902C42EA9000EFC8E7 /* BowlingTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9745E8F2C42EA9000EFC8E7 /* BowlingTrackerTests.swift */; };
@@ -38,7 +38,7 @@
 /* Begin PBXFileReference section */
 		F9745E7B2C42EA8E00EFC8E7 /* BowlingTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BowlingTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9745E7E2C42EA8E00EFC8E7 /* BowlingTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingTrackerApp.swift; sourceTree = "<group>"; };
-		F9745E802C42EA8E00EFC8E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F9745E802C42EA8E00EFC8E7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F9745E822C42EA9000EFC8E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9745E852C42EA9000EFC8E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F9745E8B2C42EA9000EFC8E7 /* BowlingTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BowlingTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +75,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F947A0BB2C5376CF0008E3A1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F9745EAB2C43797700EFC8E7 /* SplashScreenView.swift */,
+				F9745E802C42EA8E00EFC8E7 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F947A0BD2C5376EF0008E3A1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F947A0BE2C5376FB0008E3A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F9745E722C42EA8E00EFC8E7 = {
 			isa = PBXGroup;
 			children = (
@@ -98,10 +121,11 @@
 		F9745E7D2C42EA8E00EFC8E7 /* BowlingTracker */ = {
 			isa = PBXGroup;
 			children = (
+				F947A0BE2C5376FB0008E3A1 /* Model */,
+				F947A0BB2C5376CF0008E3A1 /* View */,
+				F947A0BD2C5376EF0008E3A1 /* ViewModel */,
 				F9745EA82C43750C00EFC8E7 /* Icons */,
 				F9745E7E2C42EA8E00EFC8E7 /* BowlingTrackerApp.swift */,
-				F9745E802C42EA8E00EFC8E7 /* ContentView.swift */,
-				F9745EAB2C43797700EFC8E7 /* SplashScreenView.swift */,
 				F9745E822C42EA9000EFC8E7 /* Assets.xcassets */,
 				F9745E842C42EA9000EFC8E7 /* Preview Content */,
 			);
@@ -272,7 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9745E812C42EA8E00EFC8E7 /* ContentView.swift in Sources */,
+				F9745E812C42EA8E00EFC8E7 /* HomeView.swift in Sources */,
 				F9745E7F2C42EA8E00EFC8E7 /* BowlingTrackerApp.swift in Sources */,
 				F9745EAC2C43797700EFC8E7 /* SplashScreenView.swift in Sources */,
 			);
